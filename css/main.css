@@ -13,23 +13,30 @@
 
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Times, serif;
+    color: white;
+}
+
+.botao a {
+    text-decoration: none;
     color: white;
 }
 
 header .container{
+    padding: .7% 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-header .logo{
+header .logo a{
+    text-decoration: none;
     margin-left: 5px;
     color: var(--vermelho);
     font-family: Arial, Times;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 header nav a{
@@ -44,9 +51,8 @@ header nav a:hover{
 
 /* filme principal */
 .filme-principal{
-    font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.40)100%), url('../img/em-busca-de-vinganca.jpg');
-
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.40)100%), url('../img/img-fundo.jpg');
     height: 400px;
     background-size: cover; /* tamanho da imagem de fundo - fundo de cobertura*/
 
@@ -87,4 +93,23 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.filme-principal .container {
+    width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrousel-filmes{
+    margin-top: 8px;
 }

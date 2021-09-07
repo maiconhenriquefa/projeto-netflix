@@ -5,15 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix</title>
+    <title>MARVELFLIX</title>
     <link rel="stylesheet" href="./css/main.css">
-    <script src="https://kit.fontawesome.com/b3931d7e13.js" crossorigin="anonymous"></script>
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="./css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl/owl.theme.default.min.css">
+
+    <!-- CSS responsivo -->
+    <link rel="stylesheet" href="./css/responsive.css">
+
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">ACTIONFLIX</h2>
+            <h2 class="logo"><a href="#">MARVELFLIX</a></h2>
             <nav>
                 <a href="#">Início</a>
                 <a href="#">Série</a>
@@ -25,23 +32,75 @@
     <main>
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">Em Busca de Vingança</h3>
-                <p class="descricao">Inspirado em acontecimentos reais, conta a história de dois estranhos – Roman
-                    Melnyk, um chefe de construção e Jake Bonanos, um controlador de tráfego aéreo – cujas vidas se unem
-                    depois de um acidente de avião que resultou na morte da esposa e da filha de Roman.</p>
+                <h3 class="titulo">Vingadores: Ultimato (2019)</h3>
+                <p class="descricao">Após os eventos devastadores de "Vingadores: Guerra Infinita", o universo está em
+                    ruínas devido aos esforços do Titã Louco, Thanos. Com a ajuda de aliados remanescentes (...)
+                </p>
                 <div>
                     <button role="button" class="botao">
                         <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
+                        <a href="https://www.youtube.com/watch?v=g6ng8iy-l0U">ASSISTIR AGORA</a>
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
+                        <a href="https://disney.com.br/filmes/vingadores-ultimato">MAIS INFORMAÇÕES</a>
                     </button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="owl-carousel owl-theme carrousel-filmes">
+        <div class="item">
+            <a href="https://www.youtube.com/watch?v=xegelx6ucL0" target="_blank">
+                <img class="box-filme" src="./img/img1.jpg" alt="" srcset="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://www.youtube.com/watch?v=Jxm5mLzGKk0" target="_blank">
+                <img class="box-filme" src="./img/img2.jpg" alt="" srcset="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://www.youtube.com/watch?v=OiTqYV4zCGw" target="_blank" rel="noopener noreferrer">
+                <img class="box-filme" src="./img/img3.jpg" alt="" srcset="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://www.youtube.com/watch?v=iiwiig6WLyU" target="_blank">
+                <img class="box-filme" src="./img/img4.jpg" alt="" srcset="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://www.youtube.com/watch?v=zrN8a6uDJaI" target="_blank">
+                <img class="box-filme" src="./img/img5.jpg" alt="" srcset="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://www.youtube.com/watch?v=03W2ffgkYDM" target="_blank">
+                <img class="box-filme" src="./img/img6.jpg" alt="" srcset="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://www.youtube.com/watch?v=K4_A0BNrJbk" target="_blank">
+                <img class="box-filme" src="./img/img7.jpg" alt="" srcset="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="https://www.youtube.com/watch?v=mLcsmkHWMkU" target="_blank">
+                <img class="box-filme" src="./img/img8.jpg" alt="" srcset="">
+            </a>
+        </div>
+    </div>
+
+    <!-- icons dos botões -->
+    <script src="https://kit.fontawesome.com/b3931d7e13.js" crossorigin="anonymous"></script>
+
+    <!-- owl js -->
+    <script src="./js/owl/jquery.min.js"></script>
+    <script src="./js/owl/owl.carousel.min.js"></script>
+    <script src="./js/setup.js"></script>
+
 </body>
 
 </html>
